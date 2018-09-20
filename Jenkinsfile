@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git') {
         steps {
-         git 'https://github.com/pandian3k/Maven-Demo.git'       
+         git 'https://github.com/kamalakannanmca/Maven-Demo.git'       
         }
         }
         stage('installation') {
